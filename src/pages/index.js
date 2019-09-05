@@ -27,7 +27,8 @@ const IndexPage = () => {
       <div>
         <div
           style={{
-            maxWidth: 800,
+            maxWidth: 600,
+            padding: 20,
             margin: "auto",
             display: "flex",
             justifyContent: "center",
@@ -37,7 +38,15 @@ const IndexPage = () => {
           <div style={{ width: 300, flexShrink: 0 }}>
             <Img fluid={headshot.headshot.childImageSharp.fluid} />
           </div>
-          <p style={{ marginLeft: 20, width: 300 }}>
+          <p
+            style={{
+              marginLeft: 20,
+              width: 300,
+              textAlign: "center",
+              fontSize: 24,
+              lineHeight: 1.2,
+            }}
+          >
             Christie Megill is a middle grade author who writes hopeful stories,
             earnest characters, and wholehearted daydreams.
           </p>

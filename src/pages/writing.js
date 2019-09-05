@@ -9,11 +9,12 @@ const SecondPage = () => (
     <SEO title="Writing" />
     <div
       style={{
-        maxWidth: 800,
+        maxWidth: 600,
         margin: "auto",
+        padding: 20,
       }}
     >
-      <h1>Writing</h1>
+      <h1 style={{ fontFamily: "Mystery Quest" }}>Writing</h1>
       <h3>Seeking Representation </h3>
       <p>
         <i> The Flip Side of What-If</i>, Middle Grade Contemporary

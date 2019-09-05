@@ -1,9 +1,21 @@
 @import url("https://fonts.googleapis.com/css?family=Mystery+Quest&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Indie+Flower&display=swap");
 
 html {
-  font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
+}
+
+html,
+body,
+p,
+ol,
+li,
+span,
+h3,
+a,
+i {
+  font-family: "Indie Flower", sans-serif;
 }
 
 body {
