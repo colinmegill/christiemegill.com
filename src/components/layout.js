@@ -16,18 +16,28 @@ import "./layout.css"
 
 const Layout = ({ children }) => {
   return (
-    <div style={{ margin: 20, border: "1px solid black" }}>
-      <Header siteTitle={"Christie Megill"} />
-      <Nav />
-      <Social />
+    <div style={{ margin: 50, border: "1px solid black", borderRadius: 5 }}>
       <div
         style={{
-          margin: `0 auto`,
-          // padding: `0px 1.0875rem 1.45rem`,
-          padding: 0,
+          display: "flex",
+          flexDirection: "column",
+          justifyContent: "space-between",
         }}
       >
-        <main>{children}</main>
+        <Header siteTitle={"Christie Megill"} />
+        <Nav />
+        <Social />
+        <div
+          style={{
+            padding: 0,
+            minHeight: 800,
+          }}
+        >
+          <main>{children}</main>
+        </div>
+      </div>
+      <div>
+        <Social footer />
       </div>
     </div>
   )

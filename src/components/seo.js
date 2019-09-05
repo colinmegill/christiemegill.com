@@ -68,7 +68,9 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
       ].concat(meta)}
-    />
+    >
+      <script src="https://embed.typeform.com/embed.js"></script>
+    </Helmet>
   )
 }
 

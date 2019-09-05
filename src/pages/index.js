@@ -24,7 +24,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <SEO title="Home" />
-      <div style={{ minHeight: 1000 }}>
+      <div>
         <div
           style={{
             maxWidth: 800,
