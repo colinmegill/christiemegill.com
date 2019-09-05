@@ -11,7 +11,7 @@ const IndexPage = () => {
     query {
       headshot: file(relativePath: { eq: "CM.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 300) {
+          fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
           }
         }
