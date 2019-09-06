@@ -74,8 +74,7 @@ const SecondPage = () => {
             She strongly identifies with Officer Judy Hopps, of Zootopia fame.
           </li>
           <li>
-            At twelve, Christie listened to Savage Garden on repeat on her
-            Discman.
+            Christie's 12 year-old theme song was Truly Madly Deeply.
           </li>
         </ol>
       </div>
