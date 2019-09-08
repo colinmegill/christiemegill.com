@@ -59,7 +59,7 @@ const SecondPage = () => {
         <h1 style={{ fontFamily: "Mystery Quest" }}>True Facts</h1>
         <ol>
           <li>
-            She once lived down the street from a chocolate factory. She has
+            Christie once lived down the street from a chocolate factory. She has
             also lived on an island, on a farm, and is planning to someday dwell
             in a tree house.
           </li>
