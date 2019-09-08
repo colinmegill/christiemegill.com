@@ -74,7 +74,7 @@ const SecondPage = () => {
             She strongly identifies with Officer Judy Hopps, of Zootopia fame.
           </li>
           <li>
-            Christie's 12 year-old theme song was Truly Madly Deeply.
+            Christie is still in possession of her middle school diary. Occasionally, she re-reads it.
           </li>
         </ol>
       </div>
