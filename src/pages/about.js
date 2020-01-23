@@ -53,7 +53,7 @@ const SecondPage = () => {
         <h1>True Facts</h1>
         <ol>
           <li>
-            She once lived down the street from a chocolate factory. She has
+            Christie once lived down the street from a chocolate factory. She has
             also lived on an island, on a farm, and is planning to someday dwell
             in a tree house.
           </li>
@@ -68,8 +68,7 @@ const SecondPage = () => {
             She strongly identifies with Officer Judy Hopps, of Zootopia fame.
           </li>
           <li>
-            At twelve, Christie listened to Savage Garden on repeat on her
-            Discman.
+            Christie is still in possession of her middle school diary. Occasionally, she re-reads it.
           </li>
         </ol>
       </div>
