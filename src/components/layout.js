@@ -6,40 +6,33 @@
  */
 
 import React from "react"
+import { ThemeProvider } from "theme-ui"
+import { Styled } from "theme-ui"
+import { Container } from "@theme-ui/components"
+
 import PropTypes from "prop-types"
-import { useStaticQuery, graphql } from "gatsby"
 import Social from "./social"
 
 import Header from "./header"
 import Nav from "./nav"
-import "./layout.css"
+import theme from "../../theme"
+import Footer from "./footer"
 
 const Layout = ({ children }) => {
   return (
-    <div style={{ margin: 50, border: "1px solid black", borderRadius: 5 }}>
-      <div
-        style={{
-          display: "flex",
-          flexDirection: "column",
-          justifyContent: "space-between",
-        }}
-      >
-        <Header siteTitle={"Christie Megill"} />
-        <Nav />
-        <Social />
-        <div
-          style={{
-            padding: 0,
-            minHeight: 800,
-          }}
-        >
-          <main>{children}</main>
+    <ThemeProvider theme={theme}>
+      <Container>
+        <div>
+          <Header siteTitle={"Christie Megill"} />
+          <Nav />
+          <Social />
+          <div>
+            <main>{children}</main>
+          </div>
         </div>
-      </div>
-      <div>
-        <Social footer />
-      </div>
-    </div>
+        <Footer />
+      </Container>
+    </ThemeProvider>
   )
 }
 
@@ -48,10 +41,3 @@ Layout.propTypes = {
 }
 
 export default Layout
-
-//
-// <footer
-//   style={{ backgroundColor: "black", color: "white", padding: 10 }}
-// >
-//   © {new Date().getFullYear()}, Christie Megill
-// </footer>

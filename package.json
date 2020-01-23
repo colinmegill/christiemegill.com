@@ -5,6 +5,9 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@emotion/core": "^10.0.27",
+    "@mdx-js/react": "^1.5.5",
+    "@theme-ui/components": "^0.2.50",
     "@typeform/embed": "^0.12.1",
     "babel-plugin-styled-components": "^1.10.6",
     "gatsby": "^2.13.73",
@@ -15,14 +18,17 @@
     "gatsby-plugin-react-helmet": "^3.1.4",
     "gatsby-plugin-sharp": "^2.2.13",
     "gatsby-plugin-styled-components": "^3.1.3",
+    "gatsby-plugin-theme-ui": "^0.2.53",
     "gatsby-source-filesystem": "^2.1.11",
+    "gatsby-theme-style-guide": "^0.2.53",
     "gatsby-transformer-sharp": "^2.2.7",
     "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
     "react-typeform-embed": "^0.2.1",
-    "styled-components": "^4.3.2"
+    "styled-components": "^4.3.2",
+    "theme-ui": "^0.2.52"
   },
   "devDependencies": {
     "prettier": "^1.18.2"

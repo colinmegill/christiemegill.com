@@ -22,14 +22,8 @@ const SecondPage = () => {
   return (
     <Layout>
       <SEO title="About" />
-      <div
-        style={{
-          maxWidth: 600,
-          margin: "auto",
-          padding: 20,
-        }}
-      >
-        <h1 style={{ fontFamily: "Mystery Quest" }}>About Christie</h1>
+      <div>
+        <h1>About Christie</h1>
         <p>
           Christie Megill is a middle grade fiction writer. She has been writing
           stories since as far back as she can remember, before she was a middle
@@ -56,7 +50,7 @@ const SecondPage = () => {
           the forest fairies.​
         </p>
         <p>SCBWI Member</p>
-        <h1 style={{ fontFamily: "Mystery Quest" }}>True Facts</h1>
+        <h1>True Facts</h1>
         <ol>
           <li>
             She once lived down the street from a chocolate factory. She has
@@ -79,9 +73,7 @@ const SecondPage = () => {
           </li>
         </ol>
       </div>
-      <div
-        style={{ width: 300, margin: "auto", marginTop: 20, marginBottom: 40 }}
-      >
+      <div>
         <Img fluid={photo.eg.childImageSharp.fluid} />
       </div>
     </Layout>

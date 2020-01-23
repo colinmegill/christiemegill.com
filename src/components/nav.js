@@ -1,56 +1,70 @@
+/** @jsx jsx */
+import { jsx, Box } from "theme-ui"
 import { Link } from "gatsby"
-import React from "react"
 
-const Nav = () => (
-  <div
-    style={{
-      marginBottom: 40,
-      fontSize: "1.3em",
-      width: "100%",
-      display: "flex",
-      justifyContent: "center",
-    }}
-  >
+const Nav = props => (
+  <Box sx={{ m: 4 }}>
     <Link
-      to="/"
-      style={{
-        color: `black`,
-        textDecoration: `none`,
-        marginRight: 20,
+      {...props}
+      activeClassName="active"
+      sx={{
+        mr: 4,
+        fontFamily: "heading",
+        color: "inherit",
+        "&.active": {
+          color: "primary",
+        },
       }}
+      to="/"
     >
       Home
     </Link>
     <Link
-      style={{
-        color: `black`,
-        textDecoration: `none`,
-        marginRight: 20,
+      {...props}
+      activeClassName="active"
+      sx={{
+        mr: 4,
+        fontFamily: "heading",
+        color: "inherit",
+        "&.active": {
+          color: "primary",
+        },
       }}
       to="/about/"
     >
       About
     </Link>
     <Link
-      style={{
-        color: `black`,
-        textDecoration: `none`,
-        marginRight: 20,
+      {...props}
+      activeClassName="active"
+      sx={{
+        mr: 4,
+        fontFamily: "heading",
+        color: "inherit",
+        "&.active": {
+          color: "primary",
+        },
       }}
       to="/writing/"
     >
       Writing
     </Link>
     <Link
-      style={{
-        color: `black`,
-        textDecoration: `none`,
+      {...props}
+      activeClassName="active"
+      sx={{
+        mr: 4,
+        fontFamily: "heading",
+        color: "inherit",
+        "&.active": {
+          color: "primary",
+        },
       }}
       to="/contact/"
     >
       Contact
     </Link>
-  </div>
+  </Box>
 )
 
 export default Nav

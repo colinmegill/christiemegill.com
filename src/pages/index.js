@@ -19,34 +19,13 @@ const IndexPage = () => {
     }
   `)
 
-  console.log("HEADSHOT", headshot)
-
   return (
     <Layout>
       <SEO title="Home" />
       <div>
-        <div
-          style={{
-            maxWidth: 600,
-            padding: 20,
-            margin: "auto",
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <div style={{ width: 300, flexShrink: 0 }}>
-            <Img fluid={headshot.headshot.childImageSharp.fluid} />
-          </div>
-          <p
-            style={{
-              marginLeft: 20,
-              width: 300,
-              textAlign: "center",
-              fontSize: 24,
-              lineHeight: 1.2,
-            }}
-          >
+        <div>
+          <Img fluid={headshot.headshot.childImageSharp.fluid} />
+          <p>
             Christie Megill is a middle grade author who writes hopeful stories,
             earnest characters, and wholehearted daydreams.
           </p>

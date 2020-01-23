@@ -14,6 +14,14 @@ module.exports = {
         path: `${__dirname}/src/images`,
       },
     },
+    "gatsby-plugin-theme-ui",
+    {
+      resolve: "gatsby-theme-style-guide",
+      options: {
+        // sets path for generated page
+        basePath: "/design-system",
+      },
+    },
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
@@ -26,16 +34,6 @@ module.exports = {
         theme_color: `#663399`,
         display: `minimal-ui`,
         icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-    {
-      resolve: `gatsby-plugin-google-fonts`,
-      options: {
-        fonts: [
-          `Mystery Quest`,
-          `source sans pro\:300,400,400i,700`, // you can also specify font weights and styles
-        ],
-        display: "swap",
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality

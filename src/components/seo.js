@@ -69,6 +69,7 @@ function SEO({ description, lang, meta, title }) {
         },
       ].concat(meta)}
     >
+      <link rel="stylesheet" type="text/css" href="https://cloud.typography.com/6381256/7278012/css/fonts.css" />
       <script src="https://embed.typeform.com/embed.js"></script>
     </Helmet>
   )
