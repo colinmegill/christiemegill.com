@@ -25,7 +25,7 @@ const Layout = ({ children }) => {
         <div>
           <Header siteTitle={"Christie Megill"} />
           <Nav />
-          <Social />
+
           <div>
             <main>{children}</main>
           </div>

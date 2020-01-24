@@ -28,9 +28,10 @@ export default {
   },
   colors: {
     text: "#000",
-    background: "#fff",
-    primary: "#07c",
-    secondary: "#30c",
+    background: "#f5dea3",
+    primary: "#018383",
+    secondary: "#02a8a8",
+    tertiary: "#42e6a4",
     muted: "#f6f6f6",
   },
   styles: {
@@ -88,7 +89,19 @@ export default {
       lineHeight: "body",
     },
     a: {
-      color: "primary",
+      color: "text",
+    },
+    ol: {
+      color: "text",
+      fontFamily: "body",
+      fontWeight: "body",
+      lineHeight: "body",
+    },
+    li: {
+      color: "text",
+      fontFamily: "body",
+      fontWeight: "body",
+      lineHeight: "body",
     },
     pre: {
       fontFamily: "monospace",

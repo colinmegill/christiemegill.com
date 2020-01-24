@@ -1,5 +1,4 @@
-import Twitter from "./twitter"
-import Instagram from "./instagram"
+import Social from "./social"
 
 import { Styled } from "theme-ui"
 
@@ -11,9 +10,8 @@ const Footer = props => (
   <footer
     sx={{
       fontSize: 1,
-      color: "background",
-      bg: "text",
-      variant: "styles.footer",
+      bg: "background",
+      mt: 3,
     }}
   >
     <div
@@ -21,23 +19,14 @@ const Footer = props => (
         display: "flex",
         flexWrap: "wrap",
         alignItems: "center",
-        maxWidth: 768,
+        justifyContent: "center",
         mx: "auto",
         px: 2,
         py: 4,
       }}
     >
-      <Link to="/" sx={{ variant: "styles.navlink", p: 2 }}>
-        Home
-      </Link>
-      <Link to="/" sx={{ variant: "styles.navlink", p: 2 }}>
-        Blog
-      </Link>
-      <Link to="/" sx={{ variant: "styles.navlink", p: 2 }}>
-        About
-      </Link>
-      <div sx={{ mx: "auto" }} />
-      <div sx={{ p: 2 }}>© 2020 Christie Megill</div>
+      <Social />
+      <Styled.p sx={{ p: 2, fontSize: 3 }}>© 2020 Christie Megill</Styled.p>
     </div>
   </footer>
 )

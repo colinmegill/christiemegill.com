@@ -65,48 +65,50 @@ const SecondPage = () => (
       <Styled.hr />
       <Styled.h3> Essays </Styled.h3>
       <Styled.p>
-        <a
+        <Styled.a
           target="_blank"
           rel="noopener noreferrer"
           href="http://www.literarymama.com/litreflections/archives/2016/03/books-bind-us.html"
         >
           Books Bind Us
-        </a>
+        </Styled.a>
       </Styled.p>
       <Styled.p>
-        <a
+        <Styled.a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.bonbonbreak.com/letter-to-my-hometown/"
         >
           A Letter to My Hometown
-        </a>
+        </Styled.a>
       </Styled.p>
       <Styled.p>
-        <a
+        <Styled.a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.mother.ly/parenting/motherhood-was-the-gateway-to-my-creative-side"
         >
           Motherhood Was the Gateway to My Creative Side
-        </a>
+        </Styled.a>
       </Styled.p>
       <Styled.p>
-        <a
+        <Styled.a
           target="_blank"
           rel="noopener noreferrer"
           href="https://www.playfullearning.net/resource/raising-compassionate-kids/"
         >
           Raising Compassionate Kids
-        </a>
+        </Styled.a>
       </Styled.p>
-      <a
-        target="_blank"
-        rel="noopener noreferrer"
-        href="https://christiemegill.contently.com/"
-      >
-        <b>More via Contently</b>
-      </a>
+      <Styled.p>
+        <Styled.a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://christiemegill.contently.com/"
+        >
+          More via Contently
+        </Styled.a>
+      </Styled.p>
     </div>
   </Layout>
 )

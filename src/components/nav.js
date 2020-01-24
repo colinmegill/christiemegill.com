@@ -3,7 +3,7 @@ import { jsx, Box } from "theme-ui"
 import { Link } from "gatsby"
 
 const Nav = props => (
-  <Box sx={{ m: 4 }}>
+  <Box sx={{ my: 4 }}>
     <Link
       {...props}
       activeClassName="active"
