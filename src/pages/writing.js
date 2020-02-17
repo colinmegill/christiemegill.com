@@ -11,39 +11,21 @@ const SecondPage = () => (
     <div>
       <Styled.h3>Seeking Representation </Styled.h3>
       <Styled.p>
-        <i> The Flip Side of What-If</i>, Middle Grade Contemporary
+        <i> The Wolven Witch </i>, Spooky Middle Grade
       </Styled.p>
       <Styled.p>
-        When 11 year-old Nora Sheehan learns about world honey bee decline, she
-        sets out to protect the bugs with backyard beekeeping. But when her
-        spiraling anxiety worsens and she takes out her worries on her best
-        friend, she needs to figure out how to save her friendship, too.
+        After accidentally summoning the ghost of the Wolven Witch, twelve
+        year-old Maple Kovak must rewrite local legend—and her friendship with
+        her skeptical BFF Devlin—before Halloween ends and a spirit worse than
+        the witch traps her in the woods forever.
       </Styled.p>
-      <div sx={{ m: [4, 5] }}>
-        <Styled.p>
-          I explained to Mimsy why I’d chosen beekeeping in the first place. How
-          I needed a remarkable talent to prove I wasn’t un-extraordinary. How
-          bees quieted my worries when I was at Stoneybrook Farm and wrapped me
-          in a buzzing blanket of calm. How the hives were supposed to save
-          every honey bee in North America.
-        </Styled.p>
-        <Styled.p>
-          “The honey bees weren’t for nothing,” she insisted. “You’ve done
-          meaningful conservation work. And you found an activity you love and
-          excel at.”
-        </Styled.p>
-        <Styled.p>“But they aren’t going to save me.”</Styled.p>
-        <Styled.p>
-          Mimsy said anxiety doesn’t go away. It’s not something I’ll get over,
-          like the pneumonia that sent Patrick to the hospital two winters ago.
-        </Styled.p>
-        <Styled.p>
-          It doesn’t go away, but it also doesn’t make me weird or bizarre.
-        </Styled.p>
-      </div>
+
       <Styled.hr />
       <div>
         <Styled.h3> Other books </Styled.h3>
+        <Styled.p>
+          <i>The Flip Side of What-If</i>, Middle Grade Contemporary
+        </Styled.p>
         <Styled.p>
           <i>The Secret Truth</i>, Middle Grade Contemporary
         </Styled.p>
