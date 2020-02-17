@@ -7,11 +7,9 @@
 
 import React from "react"
 import { ThemeProvider } from "theme-ui"
-import { Styled } from "theme-ui"
 import { Container } from "@theme-ui/components"
 
 import PropTypes from "prop-types"
-import Social from "./social"
 
 import Header from "./header"
 import Nav from "./nav"
@@ -25,7 +23,6 @@ const Layout = ({ children }) => {
         <div>
           <Header siteTitle={"Christie Megill"} />
           <Nav />
-
           <div>
             <main>{children}</main>
           </div>

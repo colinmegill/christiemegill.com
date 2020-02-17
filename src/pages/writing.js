@@ -1,5 +1,3 @@
-import React from "react"
-
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import { Styled } from "theme-ui"
@@ -47,19 +45,13 @@ const SecondPage = () => (
       <div>
         <Styled.h3> Other books </Styled.h3>
         <Styled.p>
-          <p>
-            <i>The Secret Truth</i>, Middle Grade Contemporary
-          </p>
+          <i>The Secret Truth</i>, Middle Grade Contemporary
         </Styled.p>
         <Styled.p>
-          <p>
-            <i>Code Stars</i>, Middle Grade Contemporary
-          </p>
+          <i>Code Stars</i>, Middle Grade Contemporary
         </Styled.p>
         <Styled.p>
-          <p>
-            <i>Anchored at Redwood Grove</i>, Middle Grade Literary Fantasy
-          </p>
+          <i>Anchored at Redwood Grove</i>, Middle Grade Literary Fantasy
         </Styled.p>
       </div>
       <Styled.hr />

@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   const headshot = useStaticQuery(graphql`
     query {
-      headshot: file(relativePath: { eq: "CM.jpg" }) {
+      headshot: file(relativePath: { eq: "CM_cropped.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -24,16 +24,26 @@ const IndexPage = () => {
     <Layout>
       <SEO title="Home" />
       <Flex
-        sx={{ alignItems: "center", justifyContent: "space-between", my: 6 }}
+        sx={{
+          flexDirection: ["column", "row"],
+          alignItems: "center",
+          justifyContent: "space-between",
+          my: [5],
+        }}
       >
-        <Box sx={{ width: "30vw" }}>
+        <Box sx={{ mr: [0, 4] }}>
           <Img
-            sx={{ border: "6px solid #f5dea3" }}
+            sx={{
+              mb: [4, 0],
+              borderRadius: 999,
+              width: [200, 300],
+              height: [200, 300],
+            }}
             fluid={headshot.headshot.childImageSharp.fluid}
           />
         </Box>
         <Box sx={{ width: [230, 400] }}>
-          <Styled.p sx={{ fontSize: [2, 4] }}>
+          <Styled.p sx={{ fontSize: [3, 4] }}>
             Christie Megill is a middle grade author who writes hopeful stories,
             earnest characters, and wholehearted daydreams.
           </Styled.p>

@@ -1,10 +1,8 @@
 import Social from "./social"
-
 import { Styled } from "theme-ui"
 
 /** @jsx jsx */
 import { jsx } from "theme-ui"
-import { Link } from "@theme-ui/components"
 
 const Footer = props => (
   <footer
