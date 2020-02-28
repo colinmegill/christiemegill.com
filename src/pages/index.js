@@ -44,7 +44,7 @@ const IndexPage = () => {
         </Box>
         <Box sx={{ width: [230, 400] }}>
           <Styled.p sx={{ fontSize: [3, 4] }}>
-            Christie Megill is a middle grade author who writes hopeful stories,
+            Christie Megill is a middle grade author of hopeful stories,
             earnest characters, and wholehearted daydreams.
           </Styled.p>
         </Box>
