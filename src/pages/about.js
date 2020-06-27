@@ -28,7 +28,7 @@ const SecondPage = () => {
       <div>
         <Styled.p>
           Christie Megill is a middle grade fiction writer. She has been writing
-          stories since as far back as she can remember, before she was a middle
+          stories since first grade, before she was a middle
           grade reader herself.
         </Styled.p>
 
@@ -38,7 +38,7 @@ const SecondPage = () => {
           worked as a bookseller at Borders after college, was an editorial
           assistant at an academic press in New York City, became an early
           elementary school teacher in the Pacific Northwest, and now writes
-          books for kids while homeschooling her own young children.
+          books for kids while homeschooling her young children.
         </Styled.p>
 
         <Styled.p>
@@ -62,7 +62,7 @@ const SecondPage = () => {
           <Styled.li>
             She owns a copy of every Baby-sitter’s Club paperback book.
           </Styled.li>
-          <Styled.li>She is an INFJ.</Styled.li>
+          <Styled.li>She's an INFJ.</Styled.li>
           <Styled.li>
             Cross-country running was her high school sport.
           </Styled.li>
