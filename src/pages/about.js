@@ -62,7 +62,7 @@ const SecondPage = () => {
           <Styled.li>
             She owns a copy of every Baby-sitter’s Club paperback book.
           </Styled.li>
-          <Styled.li>She's an INFJ.</Styled.li>
+          <Styled.li>Cats are her favorite animal.</Styled.li>
           <Styled.li>
             Cross-country running was her high school sport.
           </Styled.li>
