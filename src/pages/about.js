@@ -37,13 +37,13 @@ const SecondPage = () => {
           stories. She majored in English Literature at Fordham University,
           worked as a bookseller at Borders after college, was an editorial
           assistant at an academic press in New York City, became an early
-          elementary school teacher in the Pacific Northwest, and now writes
+          elementary school teacher, and now writes
           books for kids while homeschooling her young children.
         </Styled.p>
 
         <Styled.p>
           In addition to children’s fiction, Christie writes short stories for
-          adults and essays on topics such as motherhood, homeschooling, and
+          adults and essays on topics such as motherhood, homeschooling, literacy, and 
           progressive education.
         </Styled.p>
         <Styled.p>
@@ -51,7 +51,7 @@ const SecondPage = () => {
           desserts, hiking through the woods, and practicing her tree pose with
           the forest fairies.​
         </Styled.p>
-        <Styled.p>SCBWI Member</Styled.p>
+        <Styled.p>SCBWI Member and Author Mentor Match mentee</Styled.p>
         <Styled.h3>Facts About Christie</Styled.h3>
         <Styled.ol>
           <Styled.li>
