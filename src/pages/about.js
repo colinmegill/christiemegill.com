@@ -71,8 +71,8 @@ const SecondPage = () => {
             quotes from scary movies.
           </Styled.li>
           <Styled.li>
-            Christie still has her middle school diary and occasionally, she
-            re-reads it.
+            Christie still has her middle school diaries and occasionally, she
+            re-reads them.
           </Styled.li>
         </Styled.ol>
       </div>
