@@ -11,18 +11,18 @@ const SecondPage = () => (
     <div>
       <Styled.h3>Seeking Representation </Styled.h3>
       <Styled.p>
-        <i> The Wolven Witch </i>, Spooky Middle Grade
+        <i> Emily Byrne in Brooklyn and Beyond</i>, Middle Grade Contemporary
       </Styled.p>
       <Styled.p>
-        After accidentally summoning the ghost of the Wolven Witch, twelve
-        year-old Maple Kovak must rewrite local legend—and her friendship with
-        her skeptical BFF Devlin—before Halloween ends and a spirit worse than
-        the witch traps her in the woods forever.
+       When her local arts center faces closure, 12 year-old Emily must face anxiety & panic attacks while leading a team of Brooklyn homeschoolers in a grassroots creative writing initiative to save the creative space before another beloved institution becomes an empty storefront. 
       </Styled.p>
 
       <Styled.hr />
       <div>
         <Styled.h3> Other books </Styled.h3>
+        <Styled.p>
+          <i>The Wolven Witch</i>, Spooky Middle Grade
+        </Styled.p>
         <Styled.p>
           <i>The Flip Side of What-If</i>, Middle Grade Contemporary
         </Styled.p>
@@ -31,9 +31,6 @@ const SecondPage = () => (
         </Styled.p>
         <Styled.p>
           <i>Code Stars</i>, Middle Grade Contemporary
-        </Styled.p>
-        <Styled.p>
-          <i>Anchored at Redwood Grove</i>, Middle Grade Literary Fantasy
         </Styled.p>
       </div>
       <Styled.hr />
