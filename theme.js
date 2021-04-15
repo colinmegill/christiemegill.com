@@ -66,7 +66,7 @@ export default {
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
-      fontSize: 2,
+      fontSize: 4,
     },
     h5: {
       color: "text",
