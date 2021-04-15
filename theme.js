@@ -73,14 +73,14 @@ export default {
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
-      fontSize: 1,
+      fontSize: 3,
     },
     h6: {
       color: "text",
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
-      fontSize: 6,
+      fontSize: 0,
     },
     p: {
       color: "text",
