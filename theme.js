@@ -52,7 +52,7 @@ export default {
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
-      fontSize: 7,
+      fontSize: 5,
     },
     h3: {
       color: "text",
