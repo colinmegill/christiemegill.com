@@ -45,7 +45,7 @@ export default {
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
-      fontSize: [8, 9],
+      fontSize: [7, 8],
     },
     h2: {
       color: "text",
