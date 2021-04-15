@@ -24,7 +24,7 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mr: 6,
           fontFamily: "heading",
           color: "inherit",
           "&.active": {
@@ -39,7 +39,7 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mr: 6,
           fontFamily: "heading",
           color: "inherit",
           "&.active": {
@@ -54,7 +54,7 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mr: 6,
           fontFamily: "heading",
           color: "inherit",
           "&.active": {
