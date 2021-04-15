@@ -9,7 +9,7 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mr: 8,
           fontFamily: "heading",
           color: "inherit",
           "&.active": {
