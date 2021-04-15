@@ -28,7 +28,7 @@ const IndexPage = () => {
           flexDirection: ["column", "row"],
           alignItems: "center",
           justifyContent: "space-between",
-          my: [7],
+          my: [5],
         }}
       >
         <Box sx={{ mr: [0, 4] }}>
