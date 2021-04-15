@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   const headshot = useStaticQuery(graphql`
     query {
-      headshot: file(relativePath: { eq: "ABP_4274 (2).JPG" }) {
+      headshot: file(relativePath: { eq: "Christie13 (1).jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
