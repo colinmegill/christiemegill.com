@@ -80,7 +80,7 @@ export default {
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
-      fontSize: 0,
+      fontSize: 2,
     },
     p: {
       color: "text",
