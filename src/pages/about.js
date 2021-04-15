@@ -27,24 +27,12 @@ const SecondPage = () => {
       <SEO title="About" />
       <div>
         <Styled.p>
-          Christie Megill is a middle grade fiction writer. She has been writing
-          stories since first grade, before she was a middle
-          grade reader herself.
-        </Styled.p>
-
-        <Styled.p>
-          In some form or another, her life has always revolved around books and
-          stories. She majored in English Literature at Fordham University,
-          worked as a bookseller at Borders after college, was an editorial
+          Christie Megill is a middle grade writer from New England.  
+          Her life has always revolved around books, ever since she began writing her own stories at the age of six.
+          She studied English Literature at Fordham University, worked as a bookseller at Borders, was an editorial
           assistant at an academic press in New York City, became an early
           elementary school teacher, and now writes
-          books for kids while homeschooling her young children.
-        </Styled.p>
-
-        <Styled.p>
-          In addition to children’s fiction, Christie writes short stories for
-          adults and essays on topics such as motherhood, homeschooling, literacy, and 
-          progressive education.
+          books for kids while homeschooling her young children and working for a literary agency in Manhattan. 
         </Styled.p>
         <Styled.p>
           When she isn’t writing, she spends her time baking butter-laden
