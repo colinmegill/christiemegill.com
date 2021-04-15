@@ -53,7 +53,6 @@ export default {
       lineHeight: "heading",
       fontWeight: "heading",
       fontSize: 5,
-      fontSize: 7,
     },
     h3: {
       color: "text",
