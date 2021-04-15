@@ -4,12 +4,12 @@ import { Link } from "gatsby"
 
 const Nav = props => (
   <Flex>
-    <Box sx={{ my: 8 }}>
+    <Box sx={{ my: 4 }}>
       <Link
         {...props}
         activeClassName="active"
         sx={{
-          mr: 10,
+          mr: 8,
           fontFamily: "heading",
           color: "inherit",
           "&.active": {
