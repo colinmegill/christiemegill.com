@@ -50,7 +50,7 @@ const IndexPage = () => {
           </Styled.p>
         </Box>
       </Flex>
-    </Layout>
+    </Layout> 
   )
 }
 
