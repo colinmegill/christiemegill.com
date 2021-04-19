@@ -39,7 +39,7 @@ const SecondPage = () => (
         <Styled.a
           target="_blank"
           rel="noopener noreferrer"
-          href="http://www.literarymama.com/litreflections/archives/2016/03/books-bind-us.html"
+          href="https://nightingaleandsparrow.com/woodland/"
         >
           Once Night I Walked in the Woods
         </Styled.a>
