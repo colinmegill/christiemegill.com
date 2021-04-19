@@ -41,7 +41,6 @@ const SecondPage = () => (
           rel="noopener noreferrer"
           href="http://www.literarymama.com/litreflections/archives/2016/03/books-bind-us.html"
         >
-    >
           Once Night I Walked in the Woods
         </Styled.a>
       </Styled.p>
