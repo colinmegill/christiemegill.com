@@ -11,7 +11,7 @@ const SecondPage = () => (
     <div>
       <Styled.h3>Seeking Representation </Styled.h3>
       <Styled.p>
-        <i> Emily Byrne in Brooklyn and Beyond</i>, Middle Grade Contemporary
+        <i> Make Yourself Word</i>, Middle Grade Contemporary
       </Styled.p>
       <Styled.p>
        When her local arts center faces closure, 12 year-old Emily must face anxiety & panic attacks while leading a team of Brooklyn homeschoolers in a grassroots creative writing initiative to save the creative space before another beloved institution becomes an empty storefront. 
@@ -40,6 +40,16 @@ const SecondPage = () => (
           target="_blank"
           rel="noopener noreferrer"
           href="http://www.literarymama.com/litreflections/archives/2016/03/books-bind-us.html"
+        >
+    >
+          Once Night I Walked in the Woods
+        </Styled.a>
+      </Styled.p>
+      <Styled.p>
+        <Styled.a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://nightingaleandsparrow.com/woodland/"
         >
           Books Bind Us
         </Styled.a>
