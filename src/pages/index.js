@@ -45,7 +45,7 @@ const IndexPage = () => {
         <Box sx={{ width: [230, 400] }}>
           <Styled.p sx={{ fontSize: [4, 5] }}>
             Middle Grade Fiction and 
-            Children's Literature 
+            Children's Literature yay
           
           </Styled.p>
         </Box>
