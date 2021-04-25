@@ -4,13 +4,14 @@ import { Link } from "gatsby"
 
 const Nav = props => (
   <Flex>
-    <Box sx={{ my: 4 }}>
+    <Flex sx={{ my: 3, mx: "auto", justifyContent: "flex-end" }}>
       <Link
         {...props}
         activeClassName="active"
         sx={{
-          mr: 8,
+          mx: 3,
           fontFamily: "heading",
+          fontSize: [4],
           color: "inherit",
           "&.active": {
             color: "primary",
@@ -24,8 +25,9 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mx: 3,
           fontFamily: "heading",
+          fontSize: [4],
           color: "inherit",
           "&.active": {
             color: "primary",
@@ -39,8 +41,9 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mx: 3,
           fontFamily: "heading",
+          fontSize: [4],
           color: "inherit",
           "&.active": {
             color: "primary",
@@ -54,8 +57,9 @@ const Nav = props => (
         {...props}
         activeClassName="active"
         sx={{
-          mr: 4,
+          mx: 3,
           fontFamily: "heading",
+          fontSize: [4],
           color: "inherit",
           "&.active": {
             color: "primary",
@@ -65,7 +69,7 @@ const Nav = props => (
       >
         Contact
       </Link>
-    </Box>
+    </Flex>
   </Flex>
 )
 

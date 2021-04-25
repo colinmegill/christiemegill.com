@@ -48,7 +48,7 @@ const SecondPage = () => {
             dwell in a tree house.
           </Styled.li>
           <Styled.li>
-            She owns a copy of every Baby-sitter’s Club paperback book.
+            She owns a copy of every Baby-Sitter’s Club paperback book.
           </Styled.li>
           <Styled.li>Cats are her favorite animal.</Styled.li>
           <Styled.li>

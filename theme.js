@@ -28,10 +28,10 @@ export default {
   },
   colors: {
     text: "#000",
-    background: "#f5dea3",
-    primary: "#018383",
-    secondary: "#02a8a8",
-    tertiary: "#42e6a4",
+    background: "#FFF",
+    primary: "#000",
+    secondary: "#000",
+    tertiary: "#000",
     muted: "#f6f6f6",
   },
   styles: {
@@ -42,6 +42,7 @@ export default {
     },
     h1: {
       color: "text",
+      textAlign: "center",
       fontFamily: "heading",
       lineHeight: "heading",
       fontWeight: "heading",
@@ -87,6 +88,7 @@ export default {
       fontFamily: "body",
       fontWeight: "body",
       lineHeight: "body",
+      fontSize: [3]
     },
     a: {
       color: "text",
@@ -102,6 +104,7 @@ export default {
       fontFamily: "body",
       fontWeight: "body",
       lineHeight: "body",
+      fontSize: [3]
     },
     pre: {
       fontFamily: "monospace",

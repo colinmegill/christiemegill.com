@@ -5,7 +5,7 @@ import Twitter from "./twitter"
 import Instagram from "./instagram"
 
 const Social = props => (
-  <div sx={{ mx: 2 }}>
+  <div sx={{ mx: 2, position: "relative", top: 1 }}>
     <a sx={{ mx: 2 }} href="https://www.twitter.com/christiemegill">
       <Twitter />
     </a>

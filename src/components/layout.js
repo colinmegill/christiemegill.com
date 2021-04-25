@@ -20,7 +20,7 @@ const Layout = ({ children }) => {
   return (
     <ThemeProvider theme={theme}>
       <Container>
-        <div>
+        <div style={{width: "100%"}}>
           <Header siteTitle={"Christie Megill"} />
           <Nav />
           <div>

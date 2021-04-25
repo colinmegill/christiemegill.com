@@ -8,7 +8,6 @@ const Footer = props => (
   <footer
     sx={{
       fontSize: 1,
-      bg: "background",
       mt: 3,
     }}
   >

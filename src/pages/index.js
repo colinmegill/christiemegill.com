@@ -10,7 +10,7 @@ import SEO from "../components/seo"
 const IndexPage = () => {
   const headshot = useStaticQuery(graphql`
     query {
-      headshot: file(relativePath: { eq: "PXL_20210417_140920139.PORTRAIT.jpg" }) {
+      headshot: file(relativePath: { eq: "phinney_morning_1.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid
@@ -35,7 +35,7 @@ const IndexPage = () => {
           <Img
             sx={{
               mb: [4, 0],
-              borderRadius: 999,
+              borderRadius: 0,
               width: [200, 300],
               height: [200, 300],
             }}
@@ -44,9 +44,8 @@ const IndexPage = () => {
         </Box>
         <Box sx={{ width: [230, 400] }}>
           <Styled.p sx={{ fontSize: [4, 5] }}>
-            Middle Grade Fiction and 
-            Children's Literature yay
-          
+            Middle Grade Fiction Writer
+            Children's Book Editor
           </Styled.p>
         </Box>
       </Flex>
