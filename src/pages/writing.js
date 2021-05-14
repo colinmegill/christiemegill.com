@@ -41,7 +41,7 @@ const SecondPage = () => (
           rel="noopener noreferrer"
           href="https://nightingaleandsparrow.com/woodland/"
         >
-          Once Night I Walked in the Woods
+          One Night I Walked in the Woods
         </Styled.a>
       </Styled.p>
       <Styled.p>
