@@ -36,17 +36,23 @@ const IndexPage = () => {
             sx={{
               mb: [4, 0],
               borderRadius: 0,
-              width: [200, 300],
-              height: [200, 300],
+              width: [500, 350],
+              height: [570, 400],
             }}
             fluid={headshot.headshot.childImageSharp.fluid}
           />
         </Box>
-        <Box sx={{ width: [230, 400] }}>
+        <Box sx={{ width: [280, 400] }}>
           <Styled.p sx={{ fontSize: [4, 5] }}>
-            Writer, reader, and advocate for children's literature
-           
+            Writer
+            <p></p>
+            Reader
+            <p></p>
+            Children's Book Publishing Professional  
+            
+
           </Styled.p>
+          
         </Box>
       </Flex>
     </Layout> 
