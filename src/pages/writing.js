@@ -17,24 +17,17 @@ const SecondPage = () => (
        When her local arts center faces closure, 12 year-old Emily must face anxiety & panic attacks while leading a team of Brooklyn homeschoolers in a grassroots creative writing initiative to save the creative space before another beloved institution becomes an empty storefront. 
       </Styled.p>
 
-      <Styled.hr />
-      <div>
-        <Styled.h3> Other books </Styled.h3>
-        <Styled.p>
-          <i>The Wolven Witch</i>, Spooky Middle Grade
-        </Styled.p>
-        <Styled.p>
-          <i>The Flip Side of What-If</i>, Middle Grade Contemporary
-        </Styled.p>
-        <Styled.p>
-          <i>The Secret Truth</i>, Middle Grade Contemporary
-        </Styled.p>
-        <Styled.p>
-          <i>Code Stars</i>, Middle Grade Contemporary
-        </Styled.p>
-      </div>
-      <Styled.hr />
+      
       <Styled.h3> Essays </Styled.h3>
+   <Styled.p>
+        <Styled.a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://medium.com/moms-dont-have-time-to-write/you-are-more-than-the-living-room-furniture-23384cc6c571"
+        >
+          You Are More Than the Living Room Furniture
+        </Styled.a>
+      </Styled.p>
       <Styled.p>
         <Styled.a
           target="_blank"
