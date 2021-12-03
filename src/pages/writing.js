@@ -8,16 +8,7 @@ import { jsx } from "theme-ui"
 const SecondPage = () => (
   <Layout>
     <SEO title="Writing" />
-    <div>
-      <Styled.h3>Seeking Representation </Styled.h3>
-      <Styled.p>
-        <i> Make Yourself Word</i>, Middle Grade Contemporary
-      </Styled.p>
-      <Styled.p>
-       When her local arts center faces closure, 12 year-old Emily must face anxiety & panic attacks while leading a team of Brooklyn homeschoolers in a grassroots creative writing initiative to save the creative space before another beloved institution becomes an empty storefront. 
-      </Styled.p>
-
-      
+ 
       <Styled.h3> Essays </Styled.h3>
    <Styled.p>
         <Styled.a
