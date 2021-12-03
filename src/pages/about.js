@@ -27,18 +27,17 @@ const SecondPage = () => {
       <SEO title="About" />
       <div>
         <Styled.p>
-          Christie Megill is a middle grade writer from New England. Her life has always revolved around books and stories.
-          She studied English Literature at Fordham University, worked as a bookseller at Borders, was an editorial
+          Christie Megill is a middle grade writer from New England. Her life has always revolved around books, stories, and the magic found in words.
+          She studied English Literature at Fordham University, worked as a bookseller at Borders Books and Music in Columbus Circle, was an editorial
           assistant at an academic press in New York City, became an early
-          elementary school teacher, and recently returned to the professional side of publishing through an internship with Writers House in Manhattan.
-          Christie writes books for kids while homeschooling her children and raising them as readers. 
+          elementary school teacher, and recently returned to the professional side of publishing, working at Writers House in Manhattan. 
         </Styled.p>
         <Styled.p>
           When she isn’t writing, she spends her time baking butter-laden
           desserts, hiking through the woods, and practicing her tree pose with
           the forest fairies.​
         </Styled.p>
-        <Styled.p>SCBWI Member and Author Mentor Match mentee</Styled.p>
+        <Styled.p>Represented by Kristin Ostby at Greenhouse Literary</Styled.p>
         <Styled.h3>Facts About Christie</Styled.h3>
         <Styled.ol>
           <Styled.li>
