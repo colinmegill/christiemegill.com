@@ -15,16 +15,7 @@ const SecondPage = () => (
           target="_blank"
           rel="noopener noreferrer"
           href="https://medium.com/moms-dont-have-time-to-write/you-are-more-than-the-living-room-furniture-23384cc6c571"
-    >
-          You Are More Than the Living Room Furniture
-        </Styled.a>
-      </Styled.p>
-      <Styled.p>
-        <Styled.a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://nightingaleandsparrow.com/woodland/"      
-  >
+  
           You Are More Than the Living Room Furniture
         </Styled.a>
       </Styled.p>
