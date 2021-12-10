@@ -9,6 +9,9 @@ const SecondPage = () => (
   <Layout>
     <SEO title="Writing" /
   
+    <Styled.h3> Middle Grade </Styled.h3>
+   <Styled.p>
+  
       <Styled.h3> Essays </Styled.h3>
    <Styled.p>
         <Styled.a
