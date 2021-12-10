@@ -5,10 +5,7 @@ import { Styled } from "theme-ui"
 /** @jsx jsx */
 import { jsx } from "theme-ui"
 
-const SecondPage = () => (
-  <Layout>
-    <SEO title="Writing" /
-  
+
     <Styled.h3> Middle Grade </Styled.h3>
    <Styled.p>
   
