@@ -7,24 +7,7 @@ import { jsx } from "theme-ui"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Writing" 
-
-    <Styled.h3> Middle Grade </Styled.h3>
-   <Styled.p>
-        <Styled.a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://medium.com/moms-dont-have-time-to-write/you-are-more-than-the-living-room-furniture-23384cc6c571"
-  
-          The Monster of Fairhill 
-        </Styled.a>
-      </Styled.p>
-      <Styled.p>
-        <Styled.a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://nightingaleandsparrow.com/woodland/"
-        >
+    <SEO title="Writing"
   
       <Styled.h3> Essays </Styled.h3>
    <Styled.p>
