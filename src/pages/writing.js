@@ -7,7 +7,8 @@ import { jsx } from "theme-ui"
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Writing"
+    <SEO title="Writing" />
+  <div>
   
       <Styled.h3> Essays </Styled.h3>
    <Styled.p>
