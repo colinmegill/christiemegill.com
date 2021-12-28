@@ -1,24 +1,21 @@
-import Layout from "../components/layout"
-import SEO from "../components/seo"
-import { Styled } from "theme-ui"
+import Layout from "../components/layout";
+import SEO from "../components/seo";
+import { Styled } from "theme-ui";
 
 /** @jsx jsx */
-import { jsx } from "theme-ui"
+import { jsx } from "theme-ui";
 
 const SecondPage = () => (
   <Layout>
-    <SEO title="Writing" /
-  
-    <Styled.h3> Middle Grade </Styled.h3>
-   <Styled.p>
-  
+    <SEO title="Writing" />
+    <div>
       <Styled.h3> Essays </Styled.h3>
-   <Styled.p>
+      <Styled.p>
         <Styled.a
           target="_blank"
           rel="noopener noreferrer"
           href="https://medium.com/moms-dont-have-time-to-write/you-are-more-than-the-living-room-furniture-23384cc6c571"
-  
+        >
           You Are More Than the Living Room Furniture
         </Styled.a>
       </Styled.p>
@@ -78,6 +75,6 @@ const SecondPage = () => (
       </Styled.p>
     </div>
   </Layout>
-)
+);
 
-export default SecondPage
+export default SecondPage;
