@@ -28,7 +28,7 @@ const SecondPage = () => {
       <div>
         <Styled.p>
           Christie Megill is a middle grade writer from New England. Her life has always revolved around books, stories, and the magic found in words.
-          She studied English Literature at Fordham University, worked as a bookseller at Borders Books and Music in Columbus Circle, was an editorial
+          She studied English Literature at Fordham University, worked as a bookseller at Borders Books and Music in Columbus Circle, served as a longtime volunteer at the Housing Works Bookstore in SoHo, was an editorial
           assistant at an academic press in New York City, became an early
           elementary school teacher, and recently returned to the professional side of publishing, working at Writers House in Manhattan. 
         </Styled.p>
