@@ -44,11 +44,11 @@ const IndexPage = () => {
         </Box>
         <Box sx={{ width: [280, 400] }}>
           <Styled.p sx={{ fontSize: [4, 5] }}>
-            Reader
+            Middle Grade Author
             <p></p>
-            Middle Grade Writer
+            Illustration and Picture Book Agent 
             <p></p>
-            Children's Publishing Professional  
+            Reader 
             
 
           </Styled.p>
