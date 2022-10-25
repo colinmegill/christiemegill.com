@@ -27,11 +27,7 @@ const SecondPage = () => {
       <SEO title="About" />
       <div>
         <Styled.p>
-          Christie Megill is a middle grade writer from New England. She studied English Literature at Fordham University, worked as a bookseller at Borders Books and Music in Columbus Circle, served as a longtime volunteer at the Housing Works Bookstore in SoHo, was an editorial
-          assistant at an academic press in New York City, became an early elementary school teacher, and recently returned to the professional side of publishing.   
-        </Styled.p>
-        <Styled.p>
-          Christie is an Associate Agent at The CAT Agency, working with illustrators and picture book authors. She previously held internships at Writers House, Triada US, and Cardinal Rule Press.
+          Christie Megill is a middle grade author and Associate Agent at The CAT Agency, working with illustrators and picture book authors. She has experience at Writers House, Triada US, and Cardinal Rule Press, along with academic publishing, children’s bookselling, and in elementary school education. She serves as an administrator for MG Book Village and as a founding member of the Village Page Turners middle grade book club. Originally from Connecticut, she now considers New York City her forever home.    
         </Styled.p>
         <Styled.p>
           When she isn’t writing, she spends her time baking butter-laden
