@@ -27,10 +27,11 @@ const SecondPage = () => {
       <SEO title="About" />
       <div>
         <Styled.p>
-          Christie Megill is a middle grade writer from New England. Her life has always revolved around books, stories, and the magic found in words.
-          She studied English Literature at Fordham University, worked as a bookseller at Borders Books and Music in Columbus Circle, served as a longtime volunteer at the Housing Works Bookstore in SoHo, was an editorial
-          assistant at an academic press in New York City, became an early
-          elementary school teacher, and recently returned to the professional side of publishing. Christie is an Associate Agent at The CAT Agency, working with illustrators and picture book authors. She previously held internships at Writers House, Triada US, and Cardinal Rule Press.  
+          Christie Megill is a middle grade writer from New England. She studied English Literature at Fordham University, worked as a bookseller at Borders Books and Music in Columbus Circle, served as a longtime volunteer at the Housing Works Bookstore in SoHo, was an editorial
+          assistant at an academic press in New York City, became an early elementary school teacher, and recently returned to the professional side of publishing.   
+        </Styled.p>
+        <Styled.p>
+          Christie is an Associate Agent at The CAT Agency, working with illustrators and picture book authors. She previously held internships at Writers House, Triada US, and Cardinal Rule Press.
         </Styled.p>
         <Styled.p>
           When she isn’t writing, she spends her time baking butter-laden
