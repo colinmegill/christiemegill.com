@@ -39,29 +39,7 @@ const SecondPage = () => {
           the forest fairies.​
         </Styled.p>
         <Styled.p>Represented by Kristin Ostby at Greenhouse Literary</Styled.p>
-        <Styled.h3>Facts About Christie</Styled.h3>
-        <Styled.ol>
-          <Styled.li>
-            Christie once lived down the street from a chocolate factory. She
-            has also lived on an island, on a farm, and is planning to someday
-            dwell in a tree house.
-          </Styled.li>
-          <Styled.li>
-            She owns a copy of every Baby-Sitter’s Club paperback book.
-          </Styled.li>
-          <Styled.li>Cats are her favorite animal.</Styled.li>
-          <Styled.li>
-            Cross-country running was her high school sport.
-          </Styled.li>
-          <Styled.li>
-            In middle school, she collected cookie cutters, Breyer horses, and
-            quotes from scary movies.
-          </Styled.li>
-          <Styled.li>
-            Christie still has her middle school diaries and occasionally, she
-            re-reads them.
-          </Styled.li>
-        </Styled.ol>
+        
       </div>
       <Box
         sx={{
