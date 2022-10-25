@@ -48,7 +48,7 @@ const IndexPage = () => {
             <p></p>
             Illustration and Picture Book Agent 
             <p></p>
-            Reader 
+           
             
 
           </Styled.p>
