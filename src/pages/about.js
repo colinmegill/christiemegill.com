@@ -27,7 +27,7 @@ const SecondPage = () => {
       <SEO title="About" />
       <div>
         <Styled.p>
-          Christie Megill is a middle grade author and Associate Agent at The CAT Agency, working with illustrators and picture book authors. She has experience at Writers House, Triada US, and Cardinal Rule Press, along with academic publishing, children’s bookselling, and in elementary school education. She serves as an administrator for MG Book Village and as a founding member of the Village Page Turners middle grade book club. Originally from Connecticut, she now considers New York City her forever home.    
+          Christie Megill is a middle grade author and Associate Agent at The CAT Agency, working with illustrators and picture book authors. She has experience at Writers House, Triada US, and Cardinal Rule Press, along with the editorial side of academic publishing, children’s bookselling, and in elementary school education. She serves as an administrator for MG Book Village and as a founding member of the Village Page Turners middle grade book club. Originally from Connecticut, she now considers New York City her forever home.    
         </Styled.p>
         <Styled.p>
           When she isn’t writing, she spends her time baking butter-laden
