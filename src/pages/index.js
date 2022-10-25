@@ -46,7 +46,8 @@ const IndexPage = () => {
           <Styled.p sx={{ fontSize: [4, 5] }}>
             Middle Grade Author
             <p></p>
-            Illustration and Picture Book Agent 
+            Illustration and 
+            Picture Book Agent 
             <p></p>
            
             
